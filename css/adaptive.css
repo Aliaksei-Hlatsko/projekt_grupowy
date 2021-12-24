@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1200px) {
+    .header__content__text p{
+        padding-right: 120px;
+    }
+  }
+@media only screen and (max-width: 990px) {
+    .header__content__text{
+        margin-top: 30px;
+    }
+    .team{
+        height: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .team__content{
+        flex-direction: column;
+        align-items: center;
+    }
+  }  
