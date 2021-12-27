@@ -1,6 +1,9 @@
 .container{
     padding: 30 60px;
 }
+.display_block{
+    display: none;
+}
 /* TITLE */
 .title{
     font-size: 64px;

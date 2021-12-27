@@ -97,3 +97,21 @@ table thead td{
 table td{
     color: #fff;
 }
+
+/* DIAGRAMS */
+
+.diagrams {
+    text-align: center;
+    padding-bottom: 120px;
+}
+.diagrams__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.diagrams__content__option {
+    padding-top: 120px;
+}
+.diagrams__content__option select{
+    width: 60%;
+    margin-top: 15px;
+}

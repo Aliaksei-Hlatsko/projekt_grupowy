@@ -16,4 +16,10 @@
         flex-direction: column;
         align-items: center;
     }
+    .diagrams__content{
+        display: block;
+    }
+    .diagrams__content__option{
+        margin-bottom: 90px;
+    }
   }  
