@@ -9,7 +9,7 @@
 .header{
     width: 100%;
     height: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 }
 .nav{
     width: 100%;
@@ -70,7 +70,7 @@
     padding-bottom: 80px;
 }
 .team h1{
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 60px
 }
 .team__content{
@@ -114,4 +114,61 @@ table td{
 .diagrams__content__option select{
     width: 60%;
     margin-top: 15px;
+}
+
+/* ABOUT YOU */
+.about{
+    padding-bottom: 120px;
+}
+.about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about__content__text{
+    margin-top: 60px;
+}
+.about__content__text p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-right: 0px;
+}
+.about__content__img {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.social{
+    margin-right: 30px;
+}
+/* ABOUT_CARD_IMG */
+.about__img{
+    position: relative;
+    width: 400px;
+    height: 420px;
+}
+.about__img::before{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(315deg,#00ccff,#0e1538,#d400d4);
+}
+.about__img::after{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(315deg,#00ccff,#0e1538,#d400d4);
+}
+.about__img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
 }
