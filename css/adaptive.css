@@ -22,4 +22,15 @@
     .diagrams__content__option{
         margin-bottom: 90px;
     }
+    .about__content{
+        text-align: center;
+        display: block;
+    }
+    .about__content__text p{
+        padding: 0 40px;
+    }
+    .about__content__img{
+        margin-top: 60px;
+        justify-content: center;
+    }
   }  
