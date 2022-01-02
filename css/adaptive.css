@@ -34,3 +34,20 @@
         justify-content: center;
     }
   }  
+@media only screen and (max-width: 767px) {
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .header__content{
+        display: block;
+        text-align: center;
+    }
+    .header__content__text p{
+        padding: 30px 40px;
+    }
+    .header__content__img{
+        text-align: center;
+        padding-top: 60px;
+    }
+}
