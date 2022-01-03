@@ -57,6 +57,7 @@
 }
 .header__content__img{
     text-align: right;
+    margin-right: 15%;
 }
 .header__content__img img{
     width: 300px;
@@ -136,6 +137,7 @@ table td{
     display: flex;
     justify-content: right;
     align-items: center;
+    margin-right: 7%;
 }
 .social{
     margin-right: 30px;
