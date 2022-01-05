@@ -117,6 +117,10 @@ table td{
     margin-top: 15px;
 }
 
+.form-select.disable {
+    opacity: 0.5;
+}
+
 /* ABOUT YOU */
 .about{
     padding-bottom: 120px;
@@ -142,9 +146,7 @@ table td{
 .social{
     margin-right: 30px;
 }
-
 /* ABOUT_CARD_IMG */
-
 .about__img{
     position: relative;
     width: 400px;
