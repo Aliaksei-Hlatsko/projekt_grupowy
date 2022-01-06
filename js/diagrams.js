@@ -50,11 +50,16 @@ function createDiagrams() {
         var name = document.getElementById('list').value;
         
         //adjusting the display of chart types
-        if (name == "age" || name == "money") {
+        if (name == "age") {
             circle.classList.add('display_block');
-            block.classList.remove('display_block');
+            block.classList.add('display_block');
             line.classList.remove('display_block');
             document.getElementById('diag_type').value = "line";
+        } else if (name == "money") {
+            circle.classList.add('display_block');
+            block.classList.remove('display_block');
+            line.classList.add('display_block');
+            document.getElementById('diag_type').value = "bar";
         } else if (name == "married" || name == "gender" || name == "language") {
             block.classList.add('display_block');
             line.classList.add('display_block');
